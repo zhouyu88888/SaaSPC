@@ -10,7 +10,7 @@ from time import sleep
 driver = webdriver.Chrome()
 
 # 打开百度首页
-driver.get("http://192.168.2.236:9527/#/index")
+driver.get("https://pms.tiexing.com/#/index")
 
 # 浏览器窗口最大化
 driver.maximize_window()
