@@ -16,7 +16,7 @@ driver.get("http://192.168.2.236:9527/#/index")
 driver.maximize_window()
 
 # 休眠2s
-sleep(10)
+sleep(5)
 
 # 关闭窗口
 driver.quit()
