@@ -14,10 +14,6 @@ driver.get("http://192.168.2.236:9527/#/index")
 
 # 浏览器窗口最大化
 driver.maximize_window()
-sleep(3)
-
-# 点击登录按钮
-driver.find_element_by_css_selector("button").click()
 
 # 休眠2s
 sleep(10)
